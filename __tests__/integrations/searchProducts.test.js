@@ -12,7 +12,7 @@ describe("Search Products", () =>{
         };
 
         const response = await request(app)  
-                        .post('/findProduct')
+                        .post('/findProds')
                         .send(find);
 
         expect(response.status).toBe(200);
