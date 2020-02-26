@@ -5,13 +5,13 @@ class ProductsController{
 
     async searchProducts(req, res){
 
-        let pageCurrent;
+        let page;
         let arrayOfProducts;
         let numberOfPages = Math.ceil(req.body.limit / 50);
 
         try{            
             
-            pageCurrent = await service.searchProductByKeyword(req.body.search);
+            page = await service.searchProductByKeyword(req.body.search);
             arrayOfProducts = service.createPageArray(page);            
 
             //Navega pelas paginas
