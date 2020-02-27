@@ -27,7 +27,7 @@ curl --location --request POST 'http://localhost:3000/findProds' \
 }'
 ```
 > O dados seram retornados com a seguinte estrutura
-![result](https://i.imgur.com/fqgep3r.png);
+![Result](https://i.imgur.com/fqgep3r.png)
 
 ## Teste automatizados
 
@@ -39,4 +39,4 @@ Foi utilizado a ferramenta Jest para a execução dos testes automatizados. Para
 
 > Após a finalização dos teste a seguinte saida deve ser apresentada
 
-![terminal](https://i.imgur.com/ELDeg7p.png);
+![terminal](https://i.imgur.com/ELDeg7p.png)
